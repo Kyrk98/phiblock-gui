@@ -10,7 +10,6 @@ Copyright (c) 2014-2021, The Monero Project
   * [About this project](#about-this-project)
   * [Supporting the project](#supporting-the-project)
   * [License](#license)
-  * [Translations](#translations)
   * [Installing the Phiblock GUI from a package](#installing-the-phiblock-gui-from-a-package)
   * [Compiling the Phiblock GUI from source](#compiling-the-phiblock-gui-from-source)
     + [Building Reproducible Windows static binaries with Docker (any OS)](#building-reproducible-windows-static-binaries-with-docker-any-os)
