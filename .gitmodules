@@ -2,3 +2,6 @@
 [submodule "phiblock"]
 	path = phiblock
 	url = https://github.com/phiblock-project/phiblock
+[submodule "external/quirc"]
+	path = external/quirc
+	url = https://github.com/dlbeer/quirc.git
