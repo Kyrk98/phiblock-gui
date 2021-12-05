@@ -1,0 +1,52 @@
+.DS_Store
+/doc
+/build
+/tags
+log/
+
+*.user
+*.user.*
+translations/*.qm
+build
+version.js
+# IOS stuff below
+moc_*
+*.o
+*.mak
+*.build
+*.xcodeproj
+phiblock-wallet-gui_plugin_import.cpp
+phiblock-wallet-gui_qml_plugin_import.cpp
+*.qmlc
+*.jsc
+qml_qmlcache.qrc
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary                                                                                                                                                                                             
+.netrwhist
+*~
+*.autosave
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+
+__pycache__/
+.vscode/launch.json
+.vscode/settings.json
+.DS_Store
+build/
+build
+.vscode/
+.vscode
