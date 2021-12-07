@@ -76,7 +76,7 @@ See [LICENSE](LICENSE).
    ```
    git clone --branch master --recursive https://github.com/phiblock-project/phiblock-gui.git
    ```
-   \* `master` - replace with the desired version tag (e.g. `v0.0.3`) to build the release binaries.
+   \* `master` - replace with the desired version tag (e.g. `v0.0.4`) to build the release binaries.
 3. Prepare build environment
    ```
    cd phiblock-gui
@@ -99,7 +99,7 @@ See [LICENSE](LICENSE).
    ```
    git clone --branch master --recursive https://github.com/phiblock-project/phiblock-gui.git
    ```
-   \* `master` - replace with the desired version tag (e.g. `v0.0.3`) to build the release binaries.
+   \* `master` - replace with the desired version tag (e.g. `v0.0.4`) to build the release binaries.
 3. Prepare build environment
    ```
    cd phiblock-gui

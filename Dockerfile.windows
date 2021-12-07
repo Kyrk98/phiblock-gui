@@ -12,9 +12,9 @@ RUN apt update && \
 RUN update-alternatives --set x86_64-w64-mingw32-g++ $(which x86_64-w64-mingw32-g++-posix) && \
     update-alternatives --set x86_64-w64-mingw32-gcc $(which x86_64-w64-mingw32-gcc-posix)
 
-RUN git clone -b v0.0.3 --depth 1 https://github.com/phiblock-project/phiblock && \
+RUN git clone -b v0.0.4 --depth 1 https://github.com/phiblock-project/phiblock && \
     cd phiblock && \
-    git reset --hard 2ee1ae7471d1f9e3aa660fa80cf51d435ac005de && \
+    git reset --hard b273f6a83bcf73eea388828903d80961b6f276e8 && \
     cp -a contrib/depends / && \
     cd .. && \
     rm -rf phiblock
