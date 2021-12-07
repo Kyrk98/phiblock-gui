@@ -14,7 +14,7 @@ RUN update-alternatives --set x86_64-w64-mingw32-g++ $(which x86_64-w64-mingw32-
 
 RUN git clone -b v0.0.3 --depth 1 https://github.com/phiblock-project/phiblock && \
     cd phiblock && \
-    git reset --hard c8daaff339b5d45411d4548035c5779dbcd9ef4e && \
+    git reset --hard 2ee1ae7471d1f9e3aa660fa80cf51d435ac005de && \
     cp -a contrib/depends / && \
     cd .. && \
     rm -rf phiblock
